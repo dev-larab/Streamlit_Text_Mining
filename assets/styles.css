@@ -1,0 +1,30 @@
+/* Fondo de la aplicación con una imagen */
+.stApp {
+    background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px); /* Efecto de desenfoque en el fondo */
+}
+
+/* Contenedor principal */
+.main-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor */
+}
+
+/* Botón personalizado */
+.stButton button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* Campo de texto personalizado */
+.stTextInput input {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
