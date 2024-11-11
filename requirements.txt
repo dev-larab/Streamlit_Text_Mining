@@ -3,8 +3,8 @@ alabaster==0.7.12
 altair==5.0.1
 altgraph==0.17
 anaconda-client
-anaconda-navigator==1.9.12
-anaconda-project==0.8.3
+anaconda-navigator
+anaconda-project
 annotated-types==0.5.0
 anyio==3.7.1
 appdirs==1.4.4
